@@ -80,7 +80,7 @@ export default function Page() {
             <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8">My Expertise</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               {["Web Development", "Problem Solving", "UI/UX Design"].map((skill, index) => (
-                <div key={index} className="bg-secondary p-6 rounded-lg text-center">
+                <div key={index} className="bg-white/5 dark:bg-black/5 backdrop-blur-lg border border-white/10 dark:border-black/10 p-6 rounded-lg text-center">
                   <h3 className="text-lg sm:text-xl font-semibold mb-2">{skill}</h3>
                   <p className="text-muted-foreground">Passionate about creating efficient and elegant solutions.</p>
                 </div>
