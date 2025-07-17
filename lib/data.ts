@@ -6,6 +6,18 @@ export const projects = [
     link: "https://github.com/MyOrgTS/server",
     image: "https://res.cloudinary.com/ddhgmidpp/image/upload/v1752693858/Screenshot_2025-07-17_005348_f4tkto.png",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Nest.js", "PostgresSQL"],
+    features: [
+      "Separate portals for students, admins, and staff with role-based access control.",
+      "Comprehensive application management system.",
+      "Visa processing and tracking features.",
+      "Secure document upload and management.",
+    ],
+    timeline: "3 months (Part-time)",
+    lessonsLearned: [
+      "Gained extensive experience in building complex, multi-user applications with Next.js and Nest.js.",
+      "Learned how to design and implement a secure and scalable role-based access control system.",
+      "Improved my skills in database design and management with PostgreSQL.",
+    ],
   },
   {
     title: "Conway's Game of life",
@@ -14,6 +26,18 @@ export const projects = [
     link: "https://github.com/Vanshdeepsingh-2232",
     image: "https://res.cloudinary.com/ddhgmidpp/image/upload/v1752694378/Screenshot_2025-06-25_193016_ifmud3.png",
     tags: ["C++", "RayLib", "Simulation"],
+    features: [
+      "Classic implementation of Conway's Game of Life.",
+      "Interactive grid where users can toggle cell states.",
+      "Adjustable simulation speed.",
+      "Efficient rendering with the Raylib library.",
+    ],
+    timeline: "2 weeks",
+    lessonsLearned: [
+      "Strengthened my understanding of C++ and object-oriented programming.",
+      "Gained experience with the Raylib library for 2D graphics.",
+      "Learned about cellular automata and simulation algorithms.",
+    ],
   },
   {
     title: "Natours App",
@@ -22,6 +46,18 @@ export const projects = [
     link: "https://github.com/Vanshdeepsingh-2232/vanshNodeNatours",
     image: "https://res.cloudinary.com/ddhgmidpp/image/upload/v1741235220/image1.png",
     tags: ["Node.js", "Express.js", "Stripe", "Mongoose", "Mongo DB", "Pug"],
+    features: [
+      "Browse and book tours.",
+      "User authentication and authorization.",
+      "Integration with Stripe for secure payments.",
+      "Interactive map with tour locations.",
+    ],
+    timeline: "1 month",
+    lessonsLearned: [
+      "Developed a strong foundation in back-end development with Node.js and Express.",
+      "Learned how to integrate third-party APIs like Stripe.",
+      "Gained experience with server-side rendering using Pug templates.",
+    ],
   },
   {
     title: "C++ Algorithms Visualizer",
@@ -30,6 +66,18 @@ export const projects = [
     link: "https://github.com/Vanshdeepsingh-2232",
     image: "https://res.cloudinary.com/ddhgmidpp/image/upload/v1741237784/Screenshot_2025-03-06_103914_ub6xle.png",
     tags: ["C++", "Google Benchmarks", "Imgui", "Implot"],
+    features: [
+      "Visualize the performance of C++ algorithms.",
+      "Integrates with Google Benchmarks for accurate measurements.",
+      "Interactive plots and charts with Implot.",
+      "User-friendly interface with Imgui.",
+    ],
+    timeline: "1.5 months",
+    lessonsLearned: [
+      "Deepened my knowledge of C++ and performance analysis.",
+      "Gained experience with the Imgui and Implot libraries for creating graphical user interfaces.",
+      "Learned how to use Google Benchmarks to profile C++ code.",
+    ],
   },
   {
     title: "Open Source Project",
@@ -38,6 +86,17 @@ export const projects = [
     link: "https://github.com/Vanshdeepsingh-2232",
     image: "https://res.cloudinary.com/ddhgmidpp/image/upload/v1741235363/Screenshot_2025-03-06_095902_yqomzu.png",
     tags: ["Typescript", "Next.js", "TailwindCSS", "Redis", "PostgreSQL"],
+    features: [
+      "Fixed bugs and improved the user interface of a large-scale web application.",
+      "Gained experience with Docker and containerization.",
+      "Collaborated with a team of developers on a real-world project.",
+    ],
+    timeline: "Ongoing",
+    lessonsLearned: [
+      "Learned how to contribute to open-source projects.",
+      "Improved my skills in debugging and problem-solving.",
+      "Gained experience with a modern tech stack, including Next.js, Redis, and PostgreSQL.",
+    ],
   },
   {
     title: "Figma Design Contributions",
@@ -46,6 +105,17 @@ export const projects = [
     link: "https://www.figma.com/design/akgDOb37YLUW9iWLB155EV/Twenty-(Copy)?node-id=478-19796&p=f",
     image: "https://res.cloudinary.com/ddhgmidpp/image/upload/v1741235249/Screenshot_2024-10-28_131152_hdapv2.png",
     tags: ["Figma"],
+    features: [
+      "Collaborated on the design of a new feature for a web application.",
+      "Created wireframes, mockups, and prototypes.",
+      "Conducted user research to gather feedback on the design.",
+    ],
+    timeline: "2 weeks",
+    lessonsLearned: [
+      "Gained hands-on experience with Figma and UI/UX design principles.",
+      "Learned how to work effectively in a design team.",
+      "Improved my understanding of the user-centered design process.",
+    ],
   },
 ]
 
