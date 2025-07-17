@@ -8,6 +8,7 @@ import Header from "./components/header"
 import Footer from "./components/footer"
 import BackgroundPaths from "./components/BackgroundPaths"
 import { useEffect, useState } from "react"
+import Globe3D from "./components/Globe3D"
 
 export default function Page() {
   const [isMobile, setIsMobile] = useState(false)
@@ -86,6 +87,11 @@ export default function Page() {
                 </div>
               ))}
             </div>
+          </section>
+
+          {/* Glass Globe Section */}
+          <section className="py-12">
+            <Globe3D />
           </section>
 
           {/* Contact / Social Media Section */}

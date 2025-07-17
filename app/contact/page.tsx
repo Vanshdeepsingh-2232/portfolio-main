@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, MapPin, Phone, Clipboard } from "lucide-react"
+import { Mail, MapPin, Phone, Clipboard, Github, Linkedin, Code } from "lucide-react"
 import ContactForm from "../components/contact-form"
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -32,20 +32,20 @@ export default function ContactPage() {
               {/* Left Side: Contact Info */}
               <div>
                 <p className="text-lg text-muted-foreground mb-8 text-center md:text-left">
-                  I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                  I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                   Feel free to reach out using the contact form or through my social media profiles.
                 </p>
 
-                <div className="space-y-6">
+                <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                   {/* Email Card */}
                   <Card>
-                    <CardContent className="p-6 flex flex-col sm:flex-row items-center gap-4">
+                    <CardContent className="p-6 flex flex-col items-center gap-4 text-center">
                       <div className="bg-primary/10 p-3 rounded-full">
                         <Mail className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1 text-center sm:text-left">
+                      <div className="text-center w-full">
                         <h3 className="font-medium">Email</h3>
-                        <p className="text-muted-foreground select-all">vanshdeepsingh2232@gmail.com</p>
+                        <p className="text-muted-foreground select-all block w-full text-center break-all">vanshdeepsingh2232@gmail.com</p>
                       </div>
                       <button onClick={copyEmail} className="text-primary hover:text-primary/80 transition">
                         <Clipboard className="h-5 w-5" />
@@ -56,26 +56,65 @@ export default function ContactPage() {
 
                   {/* Phone Card */}
                   <Card>
-                    <CardContent className="p-6 flex flex-col sm:flex-row items-center gap-4">
+                    <CardContent className="p-6 flex flex-col items-center gap-4 text-center">
                       <div className="bg-primary/10 p-3 rounded-full">
                         <Phone className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="text-center sm:text-left">
+                      <div className="text-center">
                         <h3 className="font-medium">Phone</h3>
-                        <p className="text-muted-foreground">+91 9779578131</p>
+                        <p className="text-muted-foreground text-center">+91 9779578131</p>
                       </div>
                     </CardContent>
                   </Card>
 
                   {/* Location Card */}
                   <Card>
-                    <CardContent className="p-6 flex flex-col sm:flex-row items-center gap-4">
+                    <CardContent className="p-6 flex flex-col items-center gap-4 text-center">
                       <div className="bg-primary/10 p-3 rounded-full">
                         <MapPin className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="text-center sm:text-left">
+                      <div className="text-center">
                         <h3 className="font-medium">Location</h3>
-                        <p className="text-muted-foreground">Patiala, Punjab, India</p>
+                        <p className="text-muted-foreground text-center">Patiala, Punjab, India</p>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  {/* GitHub Card */}
+                  <Card>
+                    <CardContent className="p-6 flex flex-col items-center gap-4 text-center">
+                      <div className="bg-primary/10 p-3 rounded-full">
+                        <Github className="h-6 w-6 text-primary" />
+                      </div>
+                      <div className="text-center">
+                        <h3 className="font-medium">GitHub</h3>
+                        <a href="https://github.com/Vanshdeep-Singh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:underline">Vanshdeep-Singh</a>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  {/* LinkedIn Card */}
+                  <Card>
+                    <CardContent className="p-6 flex flex-col items-center gap-4 text-center">
+                      <div className="bg-primary/10 p-3 rounded-full">
+                        <Linkedin className="h-6 w-6 text-primary" />
+                      </div>
+                      <div className="w-full text-center">
+                        <h3 className="font-medium">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/vanshdeep-singh-b4a2a7223/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:underline">Vanshdeep Singh</a>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  {/* LeetCode Card */}
+                  <Card>
+                    <CardContent className="p-6 flex flex-col items-center gap-4 text-center">
+                      <div className="bg-primary/10 p-3 rounded-full">
+                        <Code className="h-6 w-6 text-primary" />
+                      </div>
+                      <div className="w-full text-center">
+                        <h3 className="font-medium">LeetCode</h3>
+                        <a href="https://leetcode.com/Vanshdeep Singh/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:underline">Profile</a>
                       </div>
                     </CardContent>
                   </Card>
