@@ -91,7 +91,7 @@ export const projects = [
       "Gained experience with Docker and containerization.",
       "Collaborated with a team of developers on a real-world project.",
     ],
-    timeline: "Ongoing",
+    timeline: "October 2024",
     lessonsLearned: [
       "Learned how to contribute to open-source projects.",
       "Improved my skills in debugging and problem-solving.",
@@ -147,6 +147,15 @@ export const aboutInfo = {
   ],
   coursework: "Data Structures & Algorithms, DBMS, Web Development, Computer Networks, Operating Systems, AI, ML.",
   experience: [
+    {
+      role: "Full stack Intern",
+      company: "Education Station (April - July 2025)",
+      duties: [
+        "Engineered and maintained RESTful APIs, resulting in a 20% improvement in data exchange efficiency.",
+        "Optimized database queries and indexing, leading to a 30% reduction in query execution time.",
+        "Collaborated with Experienced Software Engineers to ensure seamless API integration and a smooth user experience."
+      ]
+    },
     {
       role: "Back-end Developer Intern",
       company: "Royal Technologies (April - July 2024)",
