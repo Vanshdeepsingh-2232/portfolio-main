@@ -34,6 +34,7 @@ export default function ContactForm() {
       } else {
         setMessage(result.error || "Your response is recorded ✅") // Handle Formspree error messages
       }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setMessage("Your response is recorded ✅") // Catch network errors
     } finally {
