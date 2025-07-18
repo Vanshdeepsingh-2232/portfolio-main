@@ -3,7 +3,7 @@ import { projects } from "@/lib/data"
 import Layout from "@/app/components/Layout"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github } from "lucide-react"
+import { Github } from "lucide-react"
 import { useParams } from "next/navigation"
 
 export default function ProjectDetailPage() {
