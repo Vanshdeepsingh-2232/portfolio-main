@@ -123,9 +123,9 @@ export const contactInfo = {
   email: "vanshdeepsingh2232@gmail.com",
   phone: "+91 9779578131",
   location: "Patiala, Punjab, India",
-  github: "https://github.com/Vanshdeep-Singh",
-  linkedin: "https://www.linkedin.com/in/vanshdeep-singh-b4a2a7223/",
-  leetcode: "https://leetcode.com/VanshdeepSingh/",
+  github: "https://github.com/Vanshdeepsingh-2232",
+  linkedin: "https://www.linkedin.com/in/vanshdeep-singh-1-swe/",
+  leetcode: "https://leetcode.com/u/vanshdeepsingh1030/",
 };
 
 export const aboutInfo = {
